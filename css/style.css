@@ -1,0 +1,277 @@
+.heading {
+	
+	margin-left: 20px;
+	font-size: 50px;
+	font-family: Georgia;
+	font-style: oblique;
+}
+.heading1 {
+	
+	margin-left: 20px;
+	font-size: 48px;
+	font-family: Futura;
+	font-style: oblique;
+}
+
+.header-slideshow div, .header-slideshow img{
+	margin: 0px auto;
+	width: 80%;
+	text-align: center;
+}
+.mySlides{
+	
+	height:700px;
+	width:80%;
+	
+}
+
+.topic {
+	
+	font-size: 80px;
+	font-family: Futura;/*Trebuchet MS Header;*/
+	font-style: italic;
+	background-size: cover;
+	padding: 20px;
+}
+
+.headers {
+	
+	font-style: italic;
+	font-family: Futura;
+	color: red;
+	text-align: center;
+}
+o. {
+	font-style: italic;
+	font-family: Futura;
+	color: maroon;
+	text-align: center;
+}
+.s {
+
+	color: red;
+	font-family: Futura;
+	font-size: 32px;
+	margin-left: 20px;
+}
+div.b1 {
+
+    width: 100%;
+}
+
+
+.b1 img {
+	float:left;
+    width: 50%;
+    margin: 0;
+    height: 660px;
+}
+.b1 img:hover {
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+.b1 article {
+	
+	background-color: pink;
+	font-family: Futura;
+	font-size: 30px;
+	margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+
+}
+
+div.b2 {
+    width: 100%;
+
+
+}
+
+.b2 img {
+
+    float:right;
+    width: 50%;
+    margin: 0;
+    height: 500px;
+}
+.b2 img:hover {
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.b2 article {
+
+	background-color: lightblue;
+	font-family: Futura;
+	font-size: 30px;
+	margin-right: 170px;
+    padding: 1em;
+    overflow: hidden;
+}
+
+div.b3 {
+	background-color: lightsalmon;
+    width: 100%;
+    
+}
+
+.b3 img {
+	float:left;
+    width: 50%;
+    margin: 0;
+    height: 500px;
+}
+.b3 img:hover {
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.b3 article {
+	font-family: Futura;
+	font-size: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+
+    padding: 1em;
+    overflow: hidden;
+}
+
+
+div.b4 {
+	background-color: palegreen;
+    width: 100%;
+   
+}
+
+.b4 img {
+	float:left;
+    width: 50%;
+    margin: 0;
+}
+
+.b4 article {
+	font-family: Futura;
+	font-size: 30px;
+	margin-left: 80px;
+    padding: 1em;
+    overflow: hidden;
+
+}
+
+.b4 ul.a {
+	list-style-type: square;
+}
+div.b5 {
+	background-color: mediumpurple;
+	width:100%;
+	margin-top: 50px;
+}
+.b5 img {
+	float:left;
+    width: 50%;
+    margin: 0;
+}
+.b5 img:hover {
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.b5 article {
+	font-family: Futura;
+	font-size: 30px;
+	margin-left: 80px;
+	margin-right: 80px;
+
+    padding: 1em;
+    overflow: hidden;
+}
+
+
+.small-headers {
+	font-family: Futura;
+	font-size: 30px;
+	margin-left: 20px;
+
+}
+
+.m {
+	font-size: 65px;
+	color: maroon;
+	
+}
+.n {
+	font-size: 50px;
+	color: maroon;
+	
+}
+.q {
+	background-color: white;
+	font-size: 60px;
+}
+.t {
+	margin-right: 30px;
+    /*border: 1px solid #ddd;*/
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;  
+}
+
+.t:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.sauce {
+	background-color: yellow;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.tooltip {
+
+
+
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+    background-color: lightblue;
+	font-family: Futura;
+	font-size: 30px;
+	margin-right: 170px;
+    padding: 1em;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    
+    border-radius: 20px;
+    padding: 5px 50px;
+    position: absolute;
+    z-index: 20;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 7%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tex {
+	font-size: 20px;
+}
