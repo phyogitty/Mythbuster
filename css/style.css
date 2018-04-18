@@ -210,7 +210,7 @@ a.tooltip strong {line-height:30px;}
 a.tooltip:hover {text-decoration:none; font-family: Futura;} 
 a.tooltip span {
     z-index:10;display:none; padding:14px 20px;
-    margin-top:240px; margin-left:-350px;
+    margin-top:240px; margin-left:-327px;
 
     width:300px; line-height:16px;
 }
@@ -269,7 +269,7 @@ div.b5 {
 	border-radius: 20px;
 	font-size: 65px;
 	color: maroon;
-	
+
 	
 }
 .n {
@@ -278,13 +278,25 @@ div.b5 {
 	color: maroon;
 	
 }
+.qq { /* Molecular structure of three chemicals*/
+	font-family: Futura;
+	margin-left: 25px;
+	margin-top: 35px;
+}
+/*
+.qqq { 
+	font-family:Futura;
+	color: orange;
+	margin-left: 25px;
+	font-size: 25px;
+}*/
 .q {
 	border-radius: 20px;
 	background-color: white;
 	font-size: 60px;
 }
-.t {
-	margin-right: 30px;
+.t {  /* three chemicals */
+	margin-left: 30px;
     /*border: 1px solid #ddd;*/
     border-radius: 4px;
     padding: 5px;
